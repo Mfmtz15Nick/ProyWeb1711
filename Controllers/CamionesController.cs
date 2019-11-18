@@ -15,12 +15,9 @@ namespace Mudanza1711.Controllers
     public class CamionesController : ControllerBase
     {
         Modelo modelo;
-        public readonly MvcMovieContext _context;
         public CamionesController(MvcMovieContext context)
         {
             modelo = new Modelo(context);
-            _context = context;
-
         }
 
         // GET: api/Camiones

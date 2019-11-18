@@ -129,3 +129,7 @@ C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\obj\Debug\netcoreapp3.0\Razo
 C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\obj\Debug\netcoreapp3.0\Razor\Views\Buses\Details.cshtml.g.cs
 C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\obj\Debug\netcoreapp3.0\Razor\Views\Buses\Edit.cshtml.g.cs
 C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\obj\Debug\netcoreapp3.0\Razor\Views\Buses\Index.cshtml.g.cs
+C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\bin\Debug\netcoreapp3.0\package-lock.json
+C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\obj\Debug\netcoreapp3.0\Razor\Views\Admin\Camiones.cshtml.g.cs
+C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\bin\Debug\netcoreapp3.0\Views\vue-view\package-lock.json
+C:\Users\mario\source\repos\Mudanza1711\Mudanza1711\bin\Debug\netcoreapp3.0\Views\vue-view\package.json
