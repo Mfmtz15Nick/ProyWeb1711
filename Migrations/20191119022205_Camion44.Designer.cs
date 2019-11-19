@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mudanza1711.Data;
 
 namespace Mudanza1711.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
-    partial class MvcMovieContextModelSnapshot : ModelSnapshot
+    [Migration("20191119022205_Camion44")]
+    partial class Camion44
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -118,42 +120,6 @@ namespace Mudanza1711.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Camiones");
-                });
-
-            modelBuilder.Entity("Mudanza1711.Models.Sede", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Alias")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Ciudad")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Estado")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("IdAministrador")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Latitud")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Longitud")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Pertenece")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TipoSede")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Sede");
                 });
 #pragma warning restore 612, 618
         }

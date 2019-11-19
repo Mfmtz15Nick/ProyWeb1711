@@ -16,6 +16,7 @@ namespace Mudanza1711.Data
         public DbSet<Mudanza1711.Models.Camiones> Camiones { get; set; }
 
         public DbSet<Camion> Camion { get; set; }
+        public DbSet<Sede> Sede { get; set; }
         public DbSet<AltaCamiones> AltaCamiones { get; set; }
     }
 }
