@@ -13,8 +13,8 @@ namespace Mudanza1711.Models
         public int Placas { get; set; }
         public int CapacidadPeso { get; set; }
         public int Volumen { get; set; }
-        public int Kilomentraje { get; set; }
-        public int KilomentrajeUltimoServicio { get; set; }
+        public int Kilometraje { get; set; }
+        public int KilometrajeUltimoServicio { get; set; }
 
 
     }

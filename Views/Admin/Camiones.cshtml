@@ -3,7 +3,32 @@
     ViewData["Title"] = "Camiones";
 }
 
-<div id="app">
-    {{ message }}
-</div>
+    <div id="camiones">
+        <!-- `greet` is the name of a method defined below -->
+        <button v-on:click="greet">Greet</button>
+        {{camiones}}
+        <br />
+        <button v-on:click="greetPost">Post</button>
+        {{camionesPost}}
+        <br />
+        <button v-on:click="greetPut">Put</button>
+        {{camionesPost}}
+        <br />
+        <button v-on:click="greetDelete">Delete</button>
+        {{camionesPost}}
+        <br />
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
 
